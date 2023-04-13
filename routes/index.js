@@ -9,4 +9,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/', controllerFlights.index)
 
+router.get('/flights', controllerFlights.index)
+
 module.exports = router;
