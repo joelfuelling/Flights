@@ -6,6 +6,4 @@ module.exports = {
     res.render('flights/index', {
         flights: flights
     })
-
-    } 
-}
+}}
