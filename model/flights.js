@@ -10,7 +10,8 @@ const flightSchema = new mongoose.Schema({
 
     
 // Connect your schema to a Model
-const Flight = mongoose.model('Flight', flightSchema)
+const Flights = mongoose.model('Flights', flightSchema)
 // Export the model
-module.exports = Flight
+module.exports = Flights
+
 
